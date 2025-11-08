@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Sitio Web</h1>
+        <p>Bienvenidos a mi primera página</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre_mi">Sobre Mí</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Esta es mi primera página web. Estoy aprendiendo HTML y CSS.</p>
+        </section>
+
+        <section id="sobre_mi">
+            <h2>Sobre Mí</h2>
+            <p>Me gusta la programación y quiero aprender a crear sitios web.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Escríbeme</p>
+            
+            <form class="formulario-contacto">
+                <div class="campo">
+                    <label for="nombre">Tu nombre:</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="mensaje">Tu mensaje:</label>
+                    <textarea id="mensaje" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
